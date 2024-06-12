@@ -1,9 +1,4 @@
-/* Header Projeto Agrinho 2024 */
-
-/*-------------------------------------------*/
-
 ul {margin: 0;}
-/* espaçamento interno para listagems do header */
 
 #logo {font-size: 10px;
        font-weight: bold;
@@ -16,7 +11,6 @@ ul {margin: 0;}
        text-shadow: 0px 0px 15px blue;
        border-radius: 10%;
        cursor: default;}
-/* Nome do Projeto no header*/
 
 #header {box-sizing: border-box;
          height: 10px;
@@ -31,24 +25,18 @@ ul {margin: 0;}
          position: fixed;
          top: -3px;
          z-index: 2;}
-/* definições para criação e espaçamento do header */
 
 #menu {display: flex;
        list-style: none;
        gap: .5rem;}
-/* Definições para o menu do header */
 
 #menu a {display: block;
          font-size: 15px;
          text-decoration: none;
          padding: .5rem;}
-/* definições para os links do menu */
-
-/*-------------------------------------------*/
 
 @media screen and (max-width: 700px){
   #menu a {font-size: 9px; 
            font-weight: bold;
            position: relative; right: 30px;}
 }
-/* definições para mobile-first, alterando o tamanho da fonte do menu para abranger mais espaço entre as "abas" */
